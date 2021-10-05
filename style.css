@@ -1,9 +1,13 @@
+body {
+    background-image: url(/rickandmortybg.jpg);
+    background-size: cover;
+}
 a:link {
-    color: purple
+    color: red
 }
 
 a:visited {
-    color: red
+    color: black
 }
 
 a:hover {
@@ -15,14 +19,30 @@ a:active {
 }
 
 .heading2 {
-    font-style: italic; color: blue;
+    text-align: center; text-underline-position: below; color: red;}
+
+p {text-align: center;}
+p b:first-child {
+    color:black;
 }
-div {
-    background-color: purple;
-    color: white;
+
+div { 
+    background: none;
+    color:black;
     text-align: center;
+    padding: 30px;
 }
 div:hover {
-    background-color: white;
-    color: purple;
+    background-color: olive;
+}
+
+p .snek:hover{
+    display: none;
+    background: none;
+    color:black;
+    text-align: center;
+    padding: 30px;
+}
+div .app:hover p .snek{
+   display: block; 
 }
