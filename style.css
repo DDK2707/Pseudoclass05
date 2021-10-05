@@ -1,0 +1,20 @@
+a:link {
+    color: purple
+}
+
+a:visited {
+    color: red
+}
+
+a:hover {
+    color: blue
+}
+
+a:active {
+    color: burlywood;
+}
+
+.heading2 {
+    font-style: italic; color: blue;
+}
+
