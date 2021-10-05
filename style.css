@@ -17,4 +17,12 @@ a:active {
 .heading2 {
     font-style: italic; color: blue;
 }
-
+div {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+div:hover {
+    background-color: white;
+    color: purple;
+}
